@@ -1,12 +1,12 @@
-[![banner](https://raw.githubusercontent.com/nevermined-io/assets/main/images/logo/banner_logo.png)](https://nevermined.io)
+[![banner](https://raw.githubusercontent.com/nevermined-io/assets/main/images/logo/banner_logo.png)](https://nevermined.ai)
 
 # Nevermined Community Hub
 
-> Central repository for GitHub Discussions, bug reports, feedback, and feature requests about the [Nevermined](https://nevermined.io) product.
+> Central repository for GitHub Discussions, bug reports, feedback, and feature requests about the [Nevermined](https://nevermined.ai) product.
 
 ## What is Nevermined?
 
-[Nevermined](https://nevermined.io) is a protocol and platform that enables AI agents and builders to monetize, discover, and access AI services. It provides seamless payment infrastructure for AI-native commerce — from single-agent use cases to complex multi-agent economies.
+[Nevermined](https://nevermined.ai) is a protocol and platform that enables AI agents and builders to monetize and query AI agents. It provides seamless payment infrastructure for AI-native commerce — from single-agent use cases to complex multi-agent economies.
 
 ## Purpose of This Repository
 
@@ -57,10 +57,11 @@ Want to share your experience? [Open a feedback issue](https://github.com/neverm
 
 | Resource | Link |
 |---|---|
-| Website | [nevermined.io](https://nevermined.io) |
-| Documentation | [docs.nevermined.io](https://docs.nevermined.io) |
+| Website | [nevermined.io](https://nevermined.ai) |
+| Documentation | [docs.nevermined.io](https://nevermined.ai/docs) |
 | Nevermined App | [nevermined.app](https://nevermined.app) |
-| Twitter / X | [@nevermined_io](https://twitter.com/nevermined_io) |
+| Twitter / X | [@nevermined_io](https://twitter.com/nevermined_ai) |
+| Blog | [docs.nevermined.io](https://nevermined.ai/blog) |
 | GitHub Organization | [github.com/nevermined-io](https://github.com/nevermined-io) |
 
 ## Contributing
