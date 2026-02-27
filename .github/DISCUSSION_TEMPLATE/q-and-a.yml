@@ -1,0 +1,34 @@
+title: "[Q&A]: "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ask a question about Nevermined products, integrations, or the ecosystem.
+
+  - type: dropdown
+    id: topic
+    attributes:
+      label: Topic Area
+      description: Which area does your question relate to?
+      options:
+        - App
+        - TypeScript SDK
+        - Python SDK
+        - Protocol
+        - Docs
+        - MCP
+        - x402
+        - OpenClaw Plugin
+        - CLI
+        - General
+    validations:
+      required: true
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: What would you like to know?
+    validations:
+      required: true

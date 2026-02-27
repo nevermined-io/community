@@ -1,0 +1,23 @@
+title: "[Show & Tell]: "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Show the community what you've built with Nevermined!
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What You Built
+      description: Describe your project, integration, or experiment.
+    validations:
+      required: true
+
+  - type: textarea
+    id: links
+    attributes:
+      label: Links
+      description: Share links to your project, demo, repo, or documentation.
+    validations:
+      required: false

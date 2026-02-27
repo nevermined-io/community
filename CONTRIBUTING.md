@@ -1,4 +1,4 @@
-# Contributing to Nevermined Discussions
+# Contributing to Nevermined Community
 
 Thank you for your interest in contributing to the Nevermined community! This repository is the central hub for discussions, bug reports, feature requests, and general feedback about the Nevermined product ecosystem.
 
@@ -8,13 +8,15 @@ Thank you for your interest in contributing to the Nevermined community! This re
 - [How Can I Contribute?](#how-can-i-contribute)
   - [Reporting Bugs](#reporting-bugs)
   - [Requesting Features](#requesting-features)
-  - [Sharing Feedback or Asking Questions](#sharing-feedback-or-asking-questions)
+  - [Getting Support](#getting-support)
+  - [Sharing Feedback](#sharing-feedback)
   - [Joining Discussions](#joining-discussions)
 - [Issue Guidelines](#issue-guidelines)
   - [Before Submitting an Issue](#before-submitting-an-issue)
   - [Writing a Good Issue](#writing-a-good-issue)
 - [Discussion Guidelines](#discussion-guidelines)
 - [Labels](#labels)
+- [Auto-Triage](#auto-triage)
 
 ---
 
@@ -28,7 +30,7 @@ By participating in this project, you agree to abide by our [Code of Conduct](CO
 
 ### Reporting Bugs
 
-If you've found a bug in any Nevermined product, please [open a bug report](https://github.com/nevermined-io/discussions/issues/new?template=bug_report.md).
+If you've found a bug in any Nevermined product, please [open a bug report](https://github.com/nevermined-io/community/issues/new?template=bug_report.yml).
 
 A good bug report includes:
 
@@ -40,7 +42,7 @@ A good bug report includes:
 
 ### Requesting Features
 
-Have an idea that would improve the Nevermined ecosystem? [Open a feature request](https://github.com/nevermined-io/discussions/issues/new?template=feature_request.md).
+Have an idea that would improve the Nevermined ecosystem? [Open a feature request](https://github.com/nevermined-io/community/issues/new?template=feature_request.yml).
 
 A good feature request includes:
 
@@ -49,13 +51,23 @@ A good feature request includes:
 - Any alternatives you have considered
 - Why you think this would benefit the broader community
 
-### Sharing Feedback or Asking Questions
+### Getting Support
 
-For general feedback, questions, or topics that don't fit neatly into a bug or feature request, [open a feedback/question issue](https://github.com/nevermined-io/discussions/issues/new?template=question_or_feedback.md) or start a thread in [GitHub Discussions](https://github.com/nevermined-io/discussions/discussions).
+Need help with a Nevermined product or integration? [Open a support request](https://github.com/nevermined-io/community/issues/new?template=support.yml).
+
+A good support request includes:
+
+- A clear description of what you need help with
+- What you have already tried
+- Relevant environment details (SDK version, runtime, etc.)
+
+### Sharing Feedback
+
+For general feedback about your experience with Nevermined, [open a feedback issue](https://github.com/nevermined-io/community/issues/new?template=feedback.yml) or start a thread in [GitHub Discussions](https://github.com/nevermined-io/community/discussions).
 
 ### Joining Discussions
 
-The [Discussions](https://github.com/nevermined-io/discussions/discussions) section is a great place to:
+The [Discussions](https://github.com/nevermined-io/community/discussions) section is a great place to:
 
 - **Ask questions** – Get help from the community and the Nevermined team.
 - **Share ideas** – Propose and refine ideas before they become formal feature requests.
@@ -69,7 +81,7 @@ The [Discussions](https://github.com/nevermined-io/discussions/discussions) sect
 ### Before Submitting an Issue
 
 1. **Search existing issues and discussions** – Your question or bug may already have been reported or answered. Use the search bar to check.
-2. **Use the correct template** – Select the appropriate issue template (bug report, feature request, or feedback/question) when opening a new issue.
+2. **Use the correct template** – Select the appropriate issue template (bug report, feature request, support, or feedback) when opening a new issue.
 3. **Be specific** – The more detail you provide, the faster we can understand and address your issue.
 
 ### Writing a Good Issue
@@ -104,6 +116,8 @@ We use labels to categorize and prioritize issues. Here are the key labels to be
 | `feature-request` | A request for new functionality |
 | `question` | A question or request for clarification |
 | `feedback` | General feedback about a product or experience |
+| `support` | Support request |
+| `triage` | Needs triage by the team |
 | `discussion` | Topics that warrant broader community input |
 | `documentation` | Improvements or corrections to documentation |
 | `good-first-issue` | A good starting point for new contributors |
@@ -111,4 +125,10 @@ We use labels to categorize and prioritize issues. Here are the key labels to be
 
 ---
 
-Thank you for helping make Nevermined better! 🚀
+## Auto-Triage
+
+All new issues are automatically labeled with `triage` and assigned to the community team for review. This ensures every issue gets attention promptly. The triage label is removed once the team has reviewed and categorized the issue.
+
+---
+
+Thank you for helping make Nevermined better!

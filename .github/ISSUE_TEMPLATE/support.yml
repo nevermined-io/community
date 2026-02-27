@@ -1,0 +1,61 @@
+name: Support Request
+description: Get help with a Nevermined product or integration
+title: "[Support]: "
+labels: ["support", "question", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Need help? Fill out the form below and we'll do our best to assist you.
+        You can also check our [documentation](https://docs.nevermined.io) or ask in [Q&A Discussions](https://github.com/nevermined-io/community/discussions/categories/q-a).
+
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product / Component
+      description: Which Nevermined product or component do you need help with?
+      options:
+        - App
+        - TypeScript SDK
+        - Python SDK
+        - Protocol
+        - Docs
+        - MCP
+        - x402
+        - OpenClaw Plugin
+        - CLI
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: Describe what you need help with.
+    validations:
+      required: true
+
+  - type: textarea
+    id: tried
+    attributes:
+      label: What Have You Tried?
+      description: Describe any steps you've already taken to resolve this.
+      placeholder: |
+        - Checked the docs at ...
+        - Tried running ...
+        - Searched existing issues for ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Any relevant environment details.
+      placeholder: |
+        - OS: [e.g., macOS 15, Ubuntu 24.04]
+        - SDK version: [e.g., @nevermined-io/payments 0.5.0]
+        - Node.js / Python version: [e.g., Node 20, Python 3.12]
+    validations:
+      required: false

@@ -1,0 +1,55 @@
+name: Issue Triage
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  issues: write
+
+jobs:
+  triage:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add triage label
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issue = context.payload.issue;
+            const labels = issue.labels.map(l => l.name);
+
+            // Add triage label if not already present
+            if (!labels.includes('triage')) {
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                labels: ['triage']
+              });
+            }
+
+      - name: Assign community team members
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fallbackMembers = ['aitor'];
+            let members = fallbackMembers;
+
+            try {
+              const team = await github.rest.teams.listMembersInOrg({
+                org: context.repo.owner,
+                team_slug: 'community-team'
+              });
+              if (team.data.length > 0) {
+                members = team.data.map(m => m.login);
+              }
+            } catch (e) {
+              core.info(`Could not fetch community-team members, using fallback: ${e.message}`);
+            }
+
+            await github.rest.issues.addAssignees({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.issue.number,
+              assignees: members
+            });

@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a Question (Discussions)
+    url: https://github.com/nevermined-io/community/discussions/categories/q-a
+    about: Ask the community and team in Q&A Discussions
+  - name: Share an Idea (Discussions)
+    url: https://github.com/nevermined-io/community/discussions/categories/ideas
+    about: Propose and discuss ideas with the community
+  - name: Nevermined Documentation
+    url: https://docs.nevermined.io
+    about: Check our documentation for guides, API references, and tutorials

@@ -1,6 +1,6 @@
 [![banner](https://raw.githubusercontent.com/nevermined-io/assets/main/images/logo/banner_logo.png)](https://nevermined.io)
 
-# Nevermined Discussions & Issue Tracker
+# Nevermined Community Hub
 
 > Central repository for GitHub Discussions, bug reports, feedback, and feature requests about the [Nevermined](https://nevermined.io) product.
 
@@ -17,36 +17,51 @@ This repository serves two main purposes:
 
 ## How to Participate
 
-### 💬 Start or join a Discussion
+### Start or Join a Discussion
 
-Head to the [**Discussions**](https://github.com/nevermined-io/discussions/discussions) tab to:
+Head to the [**Discussions**](https://github.com/nevermined-io/community/discussions) tab to:
 
 - Ask questions about Nevermined products or integrations
 - Share ideas and proposals with the community
 - Show off what you've built with Nevermined
 - Give general feedback about your experience
 
-### 🐛 Report a Bug
+### Discussion Categories
 
-Found something broken? Please [open a bug report](https://github.com/nevermined-io/discussions/issues/new?template=bug_report.md) so we can investigate and fix it.
+| Category | Purpose |
+|---|---|
+| **Announcements** | Official updates from the Nevermined team |
+| **General** | Open conversation about Nevermined and the ecosystem |
+| **Ideas** | Propose and discuss ideas before they become feature requests |
+| **Polls** | Community polls and surveys |
+| **Q&A** | Ask questions and get answers from the community and team |
+| **Show and tell** | Share projects you've built with Nevermined |
 
-### ✨ Request a Feature
+### Report a Bug
 
-Have an idea for something new? [Submit a feature request](https://github.com/nevermined-io/discussions/issues/new?template=feature_request.md) and let us know what problem it would solve.
+Found something broken? Please [open a bug report](https://github.com/nevermined-io/community/issues/new?template=bug_report.yml) so we can investigate and fix it.
 
-### 💡 Share Feedback or Ask a Question
+### Request a Feature
 
-Not sure where your topic fits? [Open a general feedback / question issue](https://github.com/nevermined-io/discussions/issues/new?template=question_or_feedback.md).
+Have an idea for something new? [Submit a feature request](https://github.com/nevermined-io/community/issues/new?template=feature_request.yml) and let us know what problem it would solve.
+
+### Get Support
+
+Need help with a Nevermined product? [Open a support request](https://github.com/nevermined-io/community/issues/new?template=support.yml) and we'll assist you.
+
+### Share Feedback
+
+Want to share your experience? [Open a feedback issue](https://github.com/nevermined-io/community/issues/new?template=feedback.yml) and let us know what you think.
 
 ## Useful Links
 
 | Resource | Link |
 |---|---|
-| 🌐 Website | [nevermined.io](https://nevermined.io) |
-| 📖 Documentation | [docs.nevermined.io](https://docs.nevermined.io) |
-| 🚀 Nevermined App | [nevermined.app](https://nevermined.app) |
-| 🐦 Twitter / X | [@nevermined_io](https://twitter.com/nevermined_io) |
-| 💼 GitHub Organization | [github.com/nevermined-io](https://github.com/nevermined-io) |
+| Website | [nevermined.io](https://nevermined.io) |
+| Documentation | [docs.nevermined.io](https://docs.nevermined.io) |
+| Nevermined App | [nevermined.app](https://nevermined.app) |
+| Twitter / X | [@nevermined_io](https://twitter.com/nevermined_io) |
+| GitHub Organization | [github.com/nevermined-io](https://github.com/nevermined-io) |
 
 ## Contributing
 
